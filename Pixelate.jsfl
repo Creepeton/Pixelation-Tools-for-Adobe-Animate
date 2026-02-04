@@ -6,11 +6,11 @@ function roundTo(number, table) {
 }
 
 var divider = layerPrompt();
-var dom = an.getDocumentDOM();
+var dom = fl.getDocumentDOM();
 var timeline = dom.getTimeline();
 var selectedFrames = timeline.getSelectedFrames();
 var currentTimeline = document.currentTimeline;
-var lib = an.getDocumentDOM().library;
+var lib = fl.getDocumentDOM().library;
 if (selectedFrames.length >= 3) {
         var selectedFramesLength = selectedFrames[2] - selectedFrames[1];
 }
